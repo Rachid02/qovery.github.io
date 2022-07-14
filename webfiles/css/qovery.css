@@ -1,0 +1,293 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+* {
+  margin: 0 auto;
+  font-size: 10px;
+  font-family: sans-serif;
+  text-decoration-line: none;
+  font-family: url("./webfiles/font/sf-ui-text/SFUIText-Regular.ttf");
+}
+* h1, * h2, * h3, * h4 {
+  font-family: url("./webfiles/font/hk-grotesk2/TTF/HKGrotesk-Regular.ttf");
+}
+* h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+* h3:first-of-type {
+  font-weight: 800;
+}
+* p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #151B2B;
+  color: #FFFFFF;
+}
+header div {
+  max-width: 1440px;
+  max-height: 100%;
+  padding-top: 42.5px;
+}
+header div #iconQovery {
+  margin-bottom: 12.5rem;
+}
+header div div {
+  display: flex;
+}
+header div div section h1, header div div section h2 {
+  font-family: HK Grotesk;
+}
+header div div section #h1lien {
+  align-items: center;
+  display: inline-flex;
+}
+header div div section #h1lien h1 {
+  font-size: 4.6rem;
+  margin-bottom: 2.4rem;
+  font-family: url("./webfiles/font/hk-grotesk2/TTF/HKGrotesk-Regular.ttf");
+  font-weight: 800;
+  padding-right: 2.1rem;
+}
+header div div section #h1lien a {
+  text-align: center;
+  display: block;
+  margin-bottom: 2.6rem;
+}
+header div div section #h1lien #aun {
+  background-color: #FFFFFF;
+  margin-left: 2.1rem;
+  width: 66px;
+  height: 36px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+header div div section #h1lien #adeux {
+  background-color: #FFFFFF;
+  width: 34px;
+  height: 36px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+header div div section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.4rem;
+  max-width: 487px;
+}
+header div div section p {
+  max-width: 473px;
+}
+header div div section .lienGitDis a {
+  border-radius: 3px;
+  color: #FFFFFF;
+  padding: 9px 1.6rem 9px 1.6rem;
+  margin: 0;
+  align-items: center;
+}
+header div div section .lienGitDis a span {
+  font-size: 1.4rem;
+}
+header div div section .lienGitDis .gitHub {
+  background-color: #454658;
+  margin-right: 2.4rem;
+}
+header div div section .lienGitDis .gitHub img {
+  width: 19px;
+  height: 18px;
+}
+header div div section .lienGitDis .discord {
+  background-color: #6578C0;
+}
+header div div section .lienGitDis .discord img {
+  width: 16px;
+  height: 19px;
+}
+header div div img {
+  max-width: 567px;
+  max-height: 687px;
+  margin: 0;
+}
+
+main {
+  background-color: #F9F9FD;
+}
+main section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main section .sFirstSection {
+  max-width: 853px;
+  padding-top: 9.6rem;
+  padding-bottom: 6.7rem;
+  text-align: center;
+}
+main section .sFirstSection h3 {
+  padding-bottom: 2.4rem;
+}
+main section .sFirstSection p {
+  padding-bottom: 3.2rem;
+  max-width: 837px;
+}
+main section .sSecondSection {
+  background-image: url("./src/image/bg.png") top right no-repeat;
+  background-size: contain;
+  max-width: 905px;
+  max-height: 741px;
+  padding-top: 6.7rem;
+  padding-bottom: 12.5rem;
+}
+main section .sSecondSection h3 {
+  padding-bottom: 1.7rem;
+}
+main section .sSecondSection p {
+  padding-bottom: 10.5rem;
+}
+main section .sSecondSection pre {
+  background-color: #FFFFFF;
+}
+main section .sSecondSection pre code {
+  font-size: 1.5rem;
+  font-family: url("./webfiles/font/hack2/hack-regular-webfont.woff");
+}
+main section .texteC {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+main section .texteC a {
+  border-radius: 3px;
+  color: #FFFFFF;
+  padding: 9px 1.6rem 9px 1.6rem;
+  margin: 0;
+  align-items: center;
+  display: block;
+}
+main section .texteC a span {
+  font-size: 1.4rem;
+}
+main section .texteC .gitHub {
+  background-color: #454658;
+  margin-right: 2.4rem;
+  max-width: 194px;
+}
+main section .texteC .gitHub img {
+  width: 19px;
+  height: 18px;
+}
+main section .texteC .discord {
+  background-color: #6578C0;
+  max-width: 182px;
+}
+main section .texteC .discord img {
+  width: 16px;
+  height: 19px;
+}
+main section .derniereS {
+  max-width: 1440px;
+  padding-top: 10.1rem;
+}
+main section .derniereS h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding-bottom: 2.4rem;
+}
+main section .derniereS p:first-of-type {
+  padding-bottom: 2.4rem;
+}
+main section .derniereS p:last-of-type {
+  padding-top: 1.2rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #5D64D2;
+  line-height: 1.6rem;
+}
+main section .derniereS img {
+  padding-bottom: 2.4rem;
+}
+main section .derniereS .derniereSdiv1 {
+  max-width: 1059px;
+  max-height: 469px;
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  padding-bottom: 6.5rem;
+}
+main section .derniereS .derniereSdiv1 section:nth-of-type(1) {
+  border: 1px solid #151B2B;
+  max-width: 428px;
+  margin: 0;
+  padding: 0;
+}
+main section .derniereS .derniereSdiv1 section:nth-of-type(1) img {
+  max-width: 156px;
+  max-height: 140px;
+  padding-top: 2.4rem;
+  padding-bottom: 3.4rem;
+}
+main section .derniereS .derniereSdiv1 section:nth-of-type(1) p {
+  max-width: 408px;
+}
+main section .derniereS .derniereSdiv1 section:nth-of-type(2) {
+  border: 1px solid greenyellow;
+  max-width: 428px;
+  margin: 0;
+  padding: 0;
+}
+main section .derniereS .derniereSdiv1 section:nth-of-type(2) img {
+  max-width: 305px;
+  max-height: 169px;
+}
+main section .derniereS .derniereSdiv2 {
+  max-width: 1059px;
+  max-height: 503px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+main section .derniereS .derniereSdiv2 section:nth-of-type(1) {
+  border: 1px solid #6578C0;
+  max-width: 428px;
+  margin: 0;
+  padding: 0;
+}
+main section .derniereS .derniereSdiv2 section:nth-of-type(1) img {
+  max-width: 262px;
+  max-height: 233px;
+}
+main section .derniereS .derniereSdiv2 section:nth-of-type(2) {
+  border: 1px solid red;
+  max-width: 428px;
+  margin: 0;
+  padding: 0;
+}
+main section .derniereS .derniereSdiv2 section:nth-of-type(2) img {
+  max-width: 421px;
+  max-height: 232px;
+}
+main section .derniereS .derniereSdiv2 section:nth-of-type(2) p:first-of-type {
+  padding: 0;
+}
+main section .dernierh3 {
+  padding-top: 16.7rem;
+  padding-bottom: 26.6rem;
+}
+
+footer #bnoir {
+  background-color: #151B2B;
+  max-width: 100%;
+  height: 124px;
+}
+footer div {
+  max-width: 1440px;
+}
+
+/*# sourceMappingURL=qovery.css.map */
